@@ -325,3 +325,88 @@ body {
         font-size: 32px;
     }
 }
+
+
+@media (max-width: 430px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .nav {
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .nav-logo {
+        height: 35px;
+        width: auto;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .nav-list__link {
+        font-size: 14px;
+    }
+
+    .header-content {
+        margin-top: 130px;
+        padding: 20px 15px;
+        min-height: 350px;
+    }
+
+    .header-box__title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .header-box__text {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .header-content__box {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .marketing-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marketing-right__catalog {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Сдвигаем карточки влево, ровно по центру экрана */
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .marketing-catalog__info {
+        width: 100%;
+        max-width: 340px; /* Чтобы карточки красиво смотрелись на экране твоего Honor */
+        margin: 10px auto; /* Центрируем каждую карточку отдельно */
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    /* =================================== */
+
+    .footer-wrapper__title {
+        font-size: 32px;
+    }
+}
